@@ -1,5 +1,5 @@
 import "./topbar.css"
-import { Search, Person } from "@mui/icons-material"
+import { Search, Person, Chat, Notifications } from "@mui/icons-material"
 
 export default function Topbar(){
     return(
@@ -23,10 +23,18 @@ export default function Topbar(){
                     <div className="topbarIconItem">
                         <Person/>
                         <span className="topbarIconBadge">1</span>
-
-                    </div>
+                        </div>
+                        <div className="topbarIconItem">
+                        <Chat/>
+                        <span className="topbarIconBadge">2</span>
+                        </div>
+                        <div className="topbarIconItem">
+                        <Notifications/>
+                        <span className="topbarIconBadge">1</span>
+                        </div>
                 </div>
             </div>
+            <img src="/assets/person-pfp/pixil-frame-0 (1).png" alt="" className="topbarImg" />
            
         </div>
     )
