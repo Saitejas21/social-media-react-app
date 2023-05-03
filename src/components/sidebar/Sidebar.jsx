@@ -60,6 +60,30 @@ export default function Sidebar(){
                         <img className="sidebarFriendImg" src="/assets/person-pfp/2.jpg" alt="" />
                         <span className="sidebarFriendName">Anish Krishna</span>
                     </li>
+                    <li className="sidebarFriend">
+                        <img className="sidebarFriendImg" src="/assets/person-pfp/2.jpg" alt="" />
+                        <span className="sidebarFriendName">Anish Krishna</span>
+                    </li>
+                    <li className="sidebarFriend">
+                        <img className="sidebarFriendImg" src="/assets/person-pfp/2.jpg" alt="" />
+                        <span className="sidebarFriendName">Anish Krishna</span>
+                    </li>
+                    <li className="sidebarFriend">
+                        <img className="sidebarFriendImg" src="/assets/person-pfp/2.jpg" alt="" />
+                        <span className="sidebarFriendName">Anish Krishna</span>
+                    </li>
+                    <li className="sidebarFriend">
+                        <img className="sidebarFriendImg" src="/assets/person-pfp/2.jpg" alt="" />
+                        <span className="sidebarFriendName">Anish Krishna</span>
+                    </li>
+                    <li className="sidebarFriend">
+                        <img className="sidebarFriendImg" src="/assets/person-pfp/2.jpg" alt="" />
+                        <span className="sidebarFriendName">Anish Krishna</span>
+                    </li>
+                    <li className="sidebarFriend">
+                        <img className="sidebarFriendImg" src="/assets/person-pfp/2.jpg" alt="" />
+                        <span className="sidebarFriendName">Anish Krishna</span>
+                    </li>
                 </ul>
                 </div>
         </div>
