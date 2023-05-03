@@ -11,11 +11,40 @@ export default function Rightbar(){
                 <img className="rightbarAd" src="assets/posts/12.jpg" alt="" />
                 <h4 className="rightbarTitle">Online Friends</h4>
                 <ul className="rightbarFriendList">
-                    <li className="rightBarFriend">
+                    <li className="rightbarFriend">
                         <div className="rightbarProfileImgContainer">
-                            <img className="rightbarProfileImg" src="assets/person-pfp/4.png" alt="" />
+                            <img className="rightbarProfileImg" src="assets/person-pfp/5.jpg" alt="" />
                             <span className="rightbarOnline"></span>
                         </div>
+                        <span className="rightbarUsername">Anish Krishna</span>
+                    </li>
+                    <li className="rightbarFriend">
+                        <div className="rightbarProfileImgContainer">
+                            <img className="rightbarProfileImg" src="assets/person-pfp/5.jpg" alt="" />
+                            <span className="rightbarOnline"></span>
+                        </div>
+                        <span className="rightbarUsername">Anish Krishna</span>
+                    </li>
+                    <li className="rightbarFriend">
+                        <div className="rightbarProfileImgContainer">
+                            <img className="rightbarProfileImg" src="assets/person-pfp/5.jpg" alt="" />
+                            <span className="rightbarOnline"></span>
+                        </div>
+                        <span className="rightbarUsername">Anish Krishna</span>
+                    </li>
+                    <li className="rightbarFriend">
+                        <div className="rightbarProfileImgContainer">
+                            <img className="rightbarProfileImg" src="assets/person-pfp/5.jpg" alt="" />
+                            <span className="rightbarOnline"></span>
+                        </div>
+                        <span className="rightbarUsername">Anish Krishna</span>
+                    </li>
+                    <li className="rightbarFriend">
+                        <div className="rightbarProfileImgContainer">
+                            <img className="rightbarProfileImg" src="assets/person-pfp/5.jpg" alt="" />
+                            <span className="rightbarOnline"></span>
+                        </div>
+                        <span className="rightbarUsername">Anish Krishna</span>
                     </li>
                 </ul>
             </div>
