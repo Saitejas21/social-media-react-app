@@ -10,7 +10,7 @@ export default function Post({post}) {
                 <div className="postTopLeft">
                     <img className="postProfileImg" src="/assets/person-pfp/4.png" alt="" />
                     <span className="postUsername">Sai Tejas A R</span>
-                    <span className="postDate">5 mins ago</span>
+                    <span className="postDate">{post.date}</span>
                 </div>
                 <div className="postTopRight">
                     <MoreVert/>
@@ -18,17 +18,17 @@ export default function Post({post}) {
                 </div>
             </div>
             <div className="postCenter">
-                <span className="postText">Hey! It's my First post :P</span>
-                <img className="postImg" src="assets/posts/1.png" alt="" />
+                <span className="postText">{post?.desc}</span>
+                <img className="postImg" src={post.photo} alt="" />
             </div>
             <div className="postBottom">
                 <div className="postBottomLeft">
                     <img className="likeIcon" src="/assets/like.png" alt="" />
                     <img className="likeIcon" src="/assets/love.png" alt="" />
-                    <span className="postLikeCounter">69 People like it</span>
+                    <span className="postLikeCounter">{post.like} People like it</span>
                 </div>
                 <div className="postBottomRight">
-                    <span className="postCommentText">9 Comments</span>
+                    <span className="postCommentText">{post.comment} Comments</span>
                 </div>
             </div>
         </div>
