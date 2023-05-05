@@ -1,6 +1,6 @@
-import "./login.css";
+import "./register.css";
 
-export default function Login() {
+export default function Register() {
   return (
     <div className="login">
         
@@ -15,12 +15,14 @@ export default function Login() {
            The CMRITIANS Official Social Hub.
           </span>
           <div className="loginBox">
+            <input placeholder="Username" className="loginInput" />
             <input placeholder="Email" className="loginInput" />
             <input placeholder="Password" className="loginInput" />
-            <button className="loginButton">Log In</button>
+            <input placeholder="Confirm Password" className="loginInput" />
+            <button className="loginButton">Sign Up</button>
             <span className="loginForgot">Forgot Password?</span>
             <button className="loginRegisterButton">
-              Create a New Account
+              Login to your Account
             </button>
           </div>
           </div>
