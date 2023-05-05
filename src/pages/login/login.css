@@ -2,7 +2,7 @@
     width: 100vw;
     height: 100vh;
     
-    background-image: url(/public/assets/posts/bg-clg2.jpg);
+    background-image: url(/public/assets/posts/bg-final.jpeg);
     background-size: cover;
     display: flex;
     align-items: center;
@@ -16,14 +16,7 @@
       
   }
 
-  .loginBackground{
-    background-color: rgba(0, 0, 0, 0.4);
-    
-    width: 100%;
-    height: 100%;
-    position: relative;
-    z-index: 1;
-  }
+  
   
   .loginLeft{
     flex: 1;
