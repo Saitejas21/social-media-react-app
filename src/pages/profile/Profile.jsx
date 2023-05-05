@@ -1,5 +1,5 @@
 import "./profile.css";
-import Topbar from "../../components/topbar/Topbar";
+import Topbar from "../../components/topbar/TopBar";
 import Sidebar from "../../components/sidebar/Sidebar";
 import Feed from "../../components/feed/Feed";
 import Rightbar from "../../components/rightbar/Rightbar";
@@ -15,17 +15,17 @@ export default function Profile() {
             <div className="profileCover">
               <img
                 className="profileCoverImg"
-                src="assets/post/3.jpeg"
+                src="assets/posts/cover.jpg"
                 alt=""
               />
               <img
                 className="profileUserImg"
-                src="assets/person/7.jpeg"
+                src="assets/person-pfp/4.png"
                 alt=""
               />
             </div>
             <div className="profileInfo">
-                <h4 className="profileInfoName">Safak Kocaoglu</h4>
+                <h4 className="profileInfoName">Sai Tejas A R</h4>
                 <span className="profileInfoDesc">Hello my friends!</span>
             </div>
           </div>
